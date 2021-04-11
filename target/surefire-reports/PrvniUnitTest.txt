@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: PrvniUnitTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec <<< FAILURE!
+PrvniUnitTest.testSoucetViceTestuTest()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)" because "PrvniUnitTest.main" is null
+	at PrvniUnitTest.testSoucetViceTestuTest(PrvniUnitTest.java:45)
+
+PrvniUnitTest.testNacteniZeSouboruTest()  Time elapsed: 0.03 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Chyba> but was: <Cannot invoke "com.engeto.Main.nacteniZeSouboru()" because "PrvniUnitTest.main" is null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at PrvniUnitTest.testNacteniZeSouboruTest(PrvniUnitTest.java:70)
+
+PrvniUnitTest.testSoucetViceTestuVsechnyTest()  Time elapsed: 0.022 sec  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: soucet (6 failures)
+	java.lang.NullPointerException: Cannot invoke "com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)" because "PrvniUnitTest.main" is null
+	java.lang.NullPointerException: Cannot invoke "com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)" because "PrvniUnitTest.main" is null
+	java.lang.NullPointerException: Cannot invoke "com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)" because "PrvniUnitTest.main" is null
+	java.lang.NullPointerException: Cannot invoke "com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)" because "PrvniUnitTest.main" is null
+	java.lang.NullPointerException: Cannot invoke "com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)" because "PrvniUnitTest.main" is null
+	java.lang.NullPointerException: Cannot invoke "com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)" because "PrvniUnitTest.main" is null
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2911)
+	at PrvniUnitTest.testSoucetViceTestuVsechnyTest(PrvniUnitTest.java:55)
+
+PrvniUnitTest.testSoucetSpatneTest()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.engeto.Main.soucetPlusJedna(java.lang.Integer, java.lang.Integer)" because "PrvniUnitTest.main" is null
+	at PrvniUnitTest.testSoucetSpatneTest(PrvniUnitTest.java:33)
+
+PrvniUnitTest.testSoucetSpatne2Test()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.engeto.Main.soucetPlusJedna(java.lang.Integer, java.lang.Integer)" because "PrvniUnitTest.main" is null
+	at PrvniUnitTest.testSoucetSpatne2Test(PrvniUnitTest.java:39)
+
+PrvniUnitTest.testSoucetTest()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)" because "PrvniUnitTest.main" is null
+	at PrvniUnitTest.testSoucetTest(PrvniUnitTest.java:27)
+

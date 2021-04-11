@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="6" name="PrvniUnitTest" time="0.056" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2020.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\majci\IdeaProjects\lekce_08_domaci_ukol"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CZ"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\majci\IdeaProjects\lekce_08_domaci_ukol"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\majci\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\Git\cmd;C:\Users\majci\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\bin;;c:\Program Files\Java\jdk-11.0.10\bin;C:\Users\majci\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\majci"/>
+    <property name="user.timezone" value="Europe/Prague"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="majci"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.2 test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
+    <property name="user.language" value="cs"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="PrvniUnitTest" name="PrvniUnitTest.testSoucetViceTestuTest" time="0.002">
+    <failure message="Cannot invoke &quot;com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null
+	at PrvniUnitTest.testSoucetViceTestuTest(PrvniUnitTest.java:45)
+</failure>
+  </testcase>
+  <testcase classname="PrvniUnitTest" name="PrvniUnitTest.testNacteniZeSouboruTest" time="0.03">
+    <failure message="expected: &lt;Chyba&gt; but was: &lt;Cannot invoke &quot;com.engeto.Main.nacteniZeSouboru()&quot; because &quot;PrvniUnitTest.main&quot; is null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;Chyba&gt; but was: &lt;Cannot invoke &quot;com.engeto.Main.nacteniZeSouboru()&quot; because &quot;PrvniUnitTest.main&quot; is null&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at PrvniUnitTest.testNacteniZeSouboruTest(PrvniUnitTest.java:70)
+</failure>
+  </testcase>
+  <testcase classname="PrvniUnitTest" name="PrvniUnitTest.testSoucetViceTestuVsechnyTest" time="0.022">
+    <failure message="soucet (6 failures)
+	java.lang.NullPointerException: Cannot invoke &quot;com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null
+	java.lang.NullPointerException: Cannot invoke &quot;com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null
+	java.lang.NullPointerException: Cannot invoke &quot;com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null
+	java.lang.NullPointerException: Cannot invoke &quot;com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null
+	java.lang.NullPointerException: Cannot invoke &quot;com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null
+	java.lang.NullPointerException: Cannot invoke &quot;com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null" type="org.opentest4j.MultipleFailuresError">org.opentest4j.MultipleFailuresError: soucet (6 failures)
+	java.lang.NullPointerException: Cannot invoke &quot;com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null
+	java.lang.NullPointerException: Cannot invoke &quot;com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null
+	java.lang.NullPointerException: Cannot invoke &quot;com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null
+	java.lang.NullPointerException: Cannot invoke &quot;com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null
+	java.lang.NullPointerException: Cannot invoke &quot;com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null
+	java.lang.NullPointerException: Cannot invoke &quot;com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2911)
+	at PrvniUnitTest.testSoucetViceTestuVsechnyTest(PrvniUnitTest.java:55)
+</failure>
+  </testcase>
+  <testcase classname="PrvniUnitTest" name="PrvniUnitTest.testSoucetSpatneTest" time="0">
+    <failure message="Cannot invoke &quot;com.engeto.Main.soucetPlusJedna(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.engeto.Main.soucetPlusJedna(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null
+	at PrvniUnitTest.testSoucetSpatneTest(PrvniUnitTest.java:33)
+</failure>
+  </testcase>
+  <testcase classname="PrvniUnitTest" name="PrvniUnitTest.testSoucetSpatne2Test" time="0.001">
+    <failure message="Cannot invoke &quot;com.engeto.Main.soucetPlusJedna(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.engeto.Main.soucetPlusJedna(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null
+	at PrvniUnitTest.testSoucetSpatne2Test(PrvniUnitTest.java:39)
+</failure>
+  </testcase>
+  <testcase classname="PrvniUnitTest" name="PrvniUnitTest.testSoucetTest" time="0.001">
+    <failure message="Cannot invoke &quot;com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.engeto.Main.soucet(java.lang.Integer, java.lang.Integer)&quot; because &quot;PrvniUnitTest.main&quot; is null
+	at PrvniUnitTest.testSoucetTest(PrvniUnitTest.java:27)
+</failure>
+  </testcase>
+</testsuite>
